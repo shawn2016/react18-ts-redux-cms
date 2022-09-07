@@ -23,7 +23,7 @@
 
 ## 进入项目
 ```bash
-cd cms
+cd react18-ts-redux-cms
 ```
 
 ## 安装依赖
