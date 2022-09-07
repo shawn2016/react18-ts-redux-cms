@@ -3,24 +3,55 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.4.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/draft-js": "^0.11.9",
+    "@types/draftjs-to-html": "^0.8.1",
+    "@types/echarts": "^4.9.16",
+    "@types/html-to-draftjs": "^1.4.0",
     "@types/jest": "^27.5.2",
+    "@types/lodash": "^4.14.184",
     "@types/node": "^16.11.57",
+    "@types/nprogress": "^0.2.0",
     "@types/react": "^18.0.18",
     "@types/react-dom": "^18.0.6",
+    "@types/react-draft-wysiwyg": "^1.13.4",
+    "@types/react-redux": "^7.1.24",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/redux-immutable": "^4.0.3",
+    "@types/redux-persist": "^4.3.1",
+    "@types/styled-components": "^5.1.26",
+    "antd": "^4.23.0",
+    "axios": "^0.27.2",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "echarts": "^5.3.3",
+    "html-to-draftjs": "^1.5.0",
+    "immutable": "^4.1.0",
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-particles": "^2.2.4",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "^5.3.5",
+    "tsparticles": "^2.2.4",
     "typescript": "^4.8.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +70,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/antd": "^1.0.0"
   }
 }
